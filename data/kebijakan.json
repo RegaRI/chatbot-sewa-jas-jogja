@@ -1,0 +1,626 @@
+[
+  {
+    "id": 1,
+    "kategori": "Syarat Sewa",
+    "judul": "Identitas Wajib Ditunjukkan",
+    "isi": "Setiap penyewa wajib menunjukkan identitas resmi yang masih berlaku seperti KTP, SIM, atau paspor sebelum melakukan transaksi sewa di Seven Inc."
+  },
+  {
+    "id": 2,
+    "kategori": "Syarat Sewa",
+    "judul": "Usia Minimal Penyewa",
+    "isi": "Penyewa harus berusia minimal 17 tahun. Untuk penyewa di bawah usia tersebut, sewa harus dilakukan atas nama orang tua atau wali yang bertanggung jawab penuh atas barang yang disewa."
+  },
+  {
+    "id": 3,
+    "kategori": "Syarat Sewa",
+    "judul": "Kartu Identitas Ditahan Sementara",
+    "isi": "Sebagai jaminan tambahan selain deposit, salah satu kartu identitas asli penyewa (KTP/SIM) dapat ditahan sementara oleh pihak toko dan akan dikembalikan saat barang sewaan dikembalikan dalam kondisi baik."
+  },
+  {
+    "id": 4,
+    "kategori": "Syarat Sewa",
+    "judul": "Data Kontak Aktif",
+    "isi": "Penyewa wajib memberikan nomor telepon dan alamat yang aktif dan dapat dihubungi selama masa sewa berlangsung, guna mempermudah komunikasi dari pihak Seven Inc apabila diperlukan."
+  },
+  {
+    "id": 5,
+    "kategori": "Syarat Sewa",
+    "judul": "Persetujuan Ketentuan Sewa",
+    "isi": "Dengan melakukan transaksi sewa, penyewa dianggap telah membaca, memahami, dan menyetujui seluruh kebijakan penyewaan yang berlaku di toko, termasuk ketentuan deposit, denda, dan tanggung jawab kerusakan."
+  },
+  {
+    "id": 6,
+    "kategori": "Syarat Sewa",
+    "judul": "Verifikasi Sebelum Serah Terima",
+    "isi": "Sebelum barang diserahkan, pihak toko akan melakukan pengecekan kondisi barang bersama penyewa dan mendokumentasikannya untuk menghindari perselisihan saat pengembalian."
+  },
+  {
+    "id": 7,
+    "kategori": "Syarat Sewa",
+    "judul": "Penyewa Wajib Hadir Langsung",
+    "isi": "Untuk transaksi di toko, penyewa disarankan hadir secara langsung agar dapat melakukan fitting dan memastikan ukuran serta kondisi barang sesuai kebutuhan sebelum sewa disepakati."
+  },
+  {
+    "id": 8,
+    "kategori": "Syarat Sewa",
+    "judul": "Perwakilan Sewa Atas Nama Orang Lain",
+    "isi": "Apabila sewa diwakilkan oleh pihak lain, wajib melampirkan surat kuasa sederhana serta identitas penyewa asli sebagai bentuk pertanggungjawaban."
+  },
+  {
+    "id": 9,
+    "kategori": "Syarat Sewa",
+    "judul": "Ketersediaan Barang Mengikat Setelah DP",
+    "isi": "Ketersediaan ukuran, warna, dan model barang hanya dijamin setelah pembayaran DP (uang muka) dilakukan dan dikonfirmasi oleh pihak toko."
+  },
+  {
+    "id": 10,
+    "kategori": "Syarat Sewa",
+    "judul": "Satu Transaksi Satu Penanggung Jawab",
+    "isi": "Setiap transaksi sewa hanya memiliki satu penanggung jawab utama yang tercatat dalam data pemesanan, meskipun barang digunakan oleh orang lain."
+  },
+  {
+    "id": 11,
+    "kategori": "Syarat Sewa",
+    "judul": "Kesesuaian Data dengan Identitas",
+    "isi": "Nama dan data yang tercantum pada bukti sewa harus sesuai dengan identitas yang ditunjukkan, guna menghindari penyalahgunaan transaksi."
+  },
+  {
+    "id": 12,
+    "kategori": "Syarat Sewa",
+    "judul": "Ketentuan Berlaku untuk Semua Kategori Produk",
+    "isi": "Seluruh syarat sewa berlaku sama rata untuk kategori produk jas, celana, maupun sepatu pantofel yang disewakan oleh toko."
+  },
+  {
+    "id": 13,
+    "kategori": "Deposit",
+    "judul": "Besaran Deposit Sesuai Kategori Produk",
+    "isi": "Deposit dikenakan berdasarkan kategori dan nilai barang yang disewa, dengan kisaran umum Rp200.000 hingga Rp450.000 per transaksi."
+  },
+  {
+    "id": 14,
+    "kategori": "Deposit",
+    "judul": "Deposit Wajib Dibayar di Muka",
+    "isi": "Pembayaran deposit dilakukan bersamaan dengan pembayaran biaya sewa pada saat pengambilan barang, sebelum barang diserahkan kepada penyewa."
+  },
+  {
+    "id": 15,
+    "kategori": "Deposit",
+    "judul": "Deposit Berupa Uang Tunai atau Transfer",
+    "isi": "Deposit dapat dibayarkan secara tunai maupun transfer ke rekening resmi toko, sesuai kesepakatan pada saat transaksi berlangsung."
+  },
+  {
+    "id": 16,
+    "kategori": "Deposit",
+    "judul": "Deposit Dikembalikan Penuh untuk Barang Utuh",
+    "isi": "Deposit akan dikembalikan 100% apabila barang dikembalikan tepat waktu dan dalam kondisi baik tanpa kerusakan maupun kehilangan komponen."
+  },
+  {
+    "id": 17,
+    "kategori": "Deposit",
+    "judul": "Pemotongan Deposit atas Kerusakan",
+    "isi": "Apabila terjadi kerusakan pada barang, deposit akan dipotong sesuai estimasi biaya perbaikan yang diinfokan kepada penyewa sebelum pengembalian deposit dilakukan."
+  },
+  {
+    "id": 18,
+    "kategori": "Deposit",
+    "judul": "Deposit Tidak Dapat Digunakan sebagai Pembayaran Sewa",
+    "isi": "Deposit merupakan jaminan terpisah dari biaya sewa dan tidak dapat dialihfungsikan sebagai pelunasan biaya sewa dalam bentuk apa pun."
+  },
+  {
+    "id": 19,
+    "kategori": "Deposit",
+    "judul": "Waktu Pengembalian Deposit",
+    "isi": "Deposit dikembalikan pada hari yang sama saat pengembalian barang, setelah proses pengecekan kondisi barang selesai dilakukan oleh petugas toko."
+  },
+  {
+    "id": 20,
+    "kategori": "Deposit",
+    "judul": "Deposit sebagai Jaminan Identitas",
+    "isi": "Selain uang deposit, penyewa dapat diminta menitipkan kartu identitas sebagai jaminan tambahan, tergantung kebijakan yang berlaku pada saat transaksi."
+  },
+  {
+    "id": 21,
+    "kategori": "Deposit",
+    "judul": "Deposit Hangus untuk Barang Hilang",
+    "isi": "Apabila barang sewaan hilang dan tidak dapat dikembalikan, deposit akan digunakan sebagai bagian dari kompensasi dan tidak dapat diminta kembali."
+  },
+  {
+    "id": 22,
+    "kategori": "Deposit",
+    "judul": "Deposit Berlaku per Transaksi",
+    "isi": "Setiap transaksi sewa dikenakan deposit tersendiri, termasuk apabila penyewa menyewa lebih dari satu jenis barang dalam waktu bersamaan."
+  },
+  {
+    "id": 23,
+    "kategori": "Deposit",
+    "judul": "Tidak Ada Bunga atas Deposit",
+    "isi": "Deposit yang dititipkan tidak dikenakan maupun menghasilkan bunga apa pun, dan hanya berfungsi sebagai jaminan selama masa sewa berlangsung."
+  },
+  {
+    "id": 24,
+    "kategori": "Deposit",
+    "judul": "Deposit untuk Sewa Jangka Panjang",
+    "isi": "Untuk penyewaan dengan durasi lebih dari 3 hari, pihak toko berhak menyesuaikan besaran deposit sesuai dengan risiko dan nilai barang yang disewakan."
+  },
+  {
+    "id": 25,
+    "kategori": "Pengembalian",
+    "judul": "Batas Waktu Pengembalian Standar",
+    "isi": "Masa sewa standar adalah 1 hingga 3 hari sejak barang diambil, dan barang wajib dikembalikan sesuai tanggal yang telah disepakati pada saat transaksi."
+  },
+  {
+    "id": 26,
+    "kategori": "Pengembalian",
+    "judul": "Lokasi Pengembalian Barang",
+    "isi": "Barang dapat dikembalikan langsung ke toko Seven Inc di Yogyakarta, atau dikirim kembali melalui jasa ekspedisi apabila sebelumnya barang dikirim ke alamat penyewa."
+  },
+  {
+    "id": 27,
+    "kategori": "Pengembalian",
+    "judul": "Kondisi Barang Saat Dikembalikan",
+    "isi": "Barang tidak perlu dicuci terlebih dahulu oleh penyewa, cukup dikembalikan apa adanya karena proses pencucian akan dilakukan oleh pihak toko."
+  },
+  {
+    "id": 28,
+    "kategori": "Pengembalian",
+    "judul": "Kelengkapan Barang Saat Pengembalian",
+    "isi": "Seluruh komponen yang diserahkan pada saat sewa, seperti dasi, sabuk, atau aksesoris tambahan, wajib dikembalikan secara lengkap bersamaan dengan barang utama."
+  },
+  {
+    "id": 29,
+    "kategori": "Pengembalian",
+    "judul": "Perpanjangan Masa Sewa",
+    "isi": "Apabila penyewa membutuhkan waktu lebih lama, permohonan perpanjangan wajib diinfokan sebelum masa sewa berakhir agar tidak dikenakan denda keterlambatan."
+  },
+  {
+    "id": 30,
+    "kategori": "Pengembalian",
+    "judul": "Jam Operasional untuk Pengembalian",
+    "isi": "Pengembalian barang hanya dapat dilakukan pada jam operasional toko, yaitu pukul 09.00 hingga 20.00 WIB setiap harinya."
+  },
+  {
+    "id": 31,
+    "kategori": "Pengembalian",
+    "judul": "Pengecekan Bersama Saat Pengembalian",
+    "isi": "Petugas toko akan melakukan pengecekan kondisi barang bersama penyewa pada saat pengembalian untuk memastikan tidak ada kerusakan atau kekurangan komponen."
+  },
+  {
+    "id": 32,
+    "kategori": "Pengembalian",
+    "judul": "Pengembalian Melalui Kurir",
+    "isi": "Untuk pengembalian melalui jasa ekspedisi, penyewa bertanggung jawab memastikan barang dikemas dengan baik dan dikirim sebelum tenggat waktu masa sewa berakhir."
+  },
+  {
+    "id": 33,
+    "kategori": "Pengembalian",
+    "judul": "Bukti Pengembalian",
+    "isi": "Setiap pengembalian barang akan dicatat dan penyewa akan menerima konfirmasi tertulis maupun lisan sebagai bukti bahwa barang telah diterima kembali oleh toko."
+  },
+  {
+    "id": 34,
+    "kategori": "Pengembalian",
+    "judul": "Pengembalian Sebagian dari Satu Paket",
+    "isi": "Untuk sewa paket, seluruh item dalam paket harus dikembalikan secara bersamaan dan tidak dapat dikembalikan sebagian pada waktu yang berbeda."
+  },
+  {
+    "id": 35,
+    "kategori": "Pengembalian",
+    "judul": "Tanggung Jawab Selama Perjalanan Pengembalian",
+    "isi": "Barang tetap menjadi tanggung jawab penyewa hingga secara resmi diterima dan dicatat oleh pihak toko, termasuk saat proses pengiriman balik."
+  },
+  {
+    "id": 36,
+    "kategori": "Keterlambatan",
+    "judul": "Denda Keterlambatan Harian",
+    "isi": "Keterlambatan pengembalian barang akan dikenakan denda sebesar kurang lebih 20-30% dari harga sewa harian untuk setiap hari keterlambatan."
+  },
+  {
+    "id": 37,
+    "kategori": "Keterlambatan",
+    "judul": "Batas Toleransi Waktu",
+    "isi": "Toleransi keterlambatan diberikan maksimal 1-2 jam dari waktu yang disepakati, sebelum dihitung sebagai keterlambatan satu hari penuh."
+  },
+  {
+    "id": 38,
+    "kategori": "Keterlambatan",
+    "judul": "Konfirmasi Sebelum Terlambat",
+    "isi": "Penyewa yang mengetahui akan terlambat mengembalikan barang wajib menginformasikan kepada pihak toko sebelum batas waktu pengembalian berakhir."
+  },
+  {
+    "id": 39,
+    "kategori": "Keterlambatan",
+    "judul": "Keterlambatan Akibat Force Majeure",
+    "isi": "Keterlambatan akibat kondisi di luar kendali seperti bencana alam atau gangguan transportasi besar akan dipertimbangkan secara khusus oleh pihak toko."
+  },
+  {
+    "id": 40,
+    "kategori": "Keterlambatan",
+    "judul": "Denda Dipotong dari Deposit",
+    "isi": "Denda keterlambatan akan dipotong langsung dari deposit yang dititipkan pada saat awal transaksi sewa dilakukan."
+  },
+  {
+    "id": 41,
+    "kategori": "Keterlambatan",
+    "judul": "Keterlambatan Berulang",
+    "isi": "Penyewa yang berulang kali terlambat mengembalikan barang berpotensi dikenakan kebijakan tambahan seperti kewajiban deposit lebih tinggi pada transaksi berikutnya."
+  },
+  {
+    "id": 42,
+    "kategori": "Keterlambatan",
+    "judul": "Batas Maksimal Keterlambatan",
+    "isi": "Apabila keterlambatan melebihi 3 hari tanpa konfirmasi, pihak toko berhak menganggap barang sebagai hilang dan memberlakukan kebijakan kehilangan barang."
+  },
+  {
+    "id": 43,
+    "kategori": "Keterlambatan",
+    "judul": "Perhitungan Denda untuk Sewa Paket",
+    "isi": "Untuk sewa paket lengkap, denda keterlambatan dihitung berdasarkan total harga sewa paket, bukan per item barang secara terpisah."
+  },
+  {
+    "id": 44,
+    "kategori": "Keterlambatan",
+    "judul": "Notifikasi Pengingat Batas Waktu",
+    "isi": "Pihak toko dapat mengirimkan pengingat kepada penyewa mendekati batas waktu pengembalian sebagai bentuk pelayanan, namun keterlambatan tetap menjadi tanggung jawab penyewa."
+  },
+  {
+    "id": 45,
+    "kategori": "Keterlambatan",
+    "judul": "Keterlambatan Pengiriman Balik via Ekspedisi",
+    "isi": "Untuk pengembalian via ekspedisi, tanggal pengembalian dihitung berdasarkan waktu barang diterima kembali oleh toko, bukan tanggal pengiriman oleh penyewa."
+  },
+  {
+    "id": 46,
+    "kategori": "Kerusakan",
+    "judul": "Kategori Kerusakan Ringan",
+    "isi": "Noda ringan yang masih dapat dibersihkan dengan proses cuci normal tidak dikenakan biaya tambahan dan menjadi tanggung jawab toko."
+  },
+  {
+    "id": 47,
+    "kategori": "Kerusakan",
+    "judul": "Kategori Kerusakan Berat",
+    "isi": "Kerusakan berat seperti robekan besar, noda permanen, atau bagian yang tidak dapat diperbaiki akan dikenakan biaya sesuai tingkat kerusakan dan nilai barang."
+  },
+  {
+    "id": 48,
+    "kategori": "Kerusakan",
+    "judul": "Perbaikan Kerusakan Kecil",
+    "isi": "Kerusakan kecil seperti kancing lepas atau jahitan yang terlepas sebagian akan diperbaiki oleh pihak toko tanpa dikenakan biaya tambahan kepada penyewa."
+  },
+  {
+    "id": 49,
+    "kategori": "Kerusakan",
+    "judul": "Estimasi Biaya Kerusakan",
+    "isi": "Estimasi biaya perbaikan atas kerusakan akan diinformasikan kepada penyewa sebelum dipotong dari deposit, agar penyewa mengetahui rincian biayanya."
+  },
+  {
+    "id": 50,
+    "kategori": "Kerusakan",
+    "judul": "Kerusakan Akibat Kelalaian",
+    "isi": "Kerusakan yang terjadi akibat kelalaian penggunaan, seperti terkena api, bahan kimia, atau penggunaan di luar peruntukan, sepenuhnya menjadi tanggung jawab penyewa."
+  },
+  {
+    "id": 51,
+    "kategori": "Kerusakan",
+    "judul": "Kerusakan di Luar Kendali Penyewa",
+    "isi": "Kerusakan akibat cacat produksi atau kondisi barang yang sudah ada sebelum sewa dimulai tidak akan dibebankan kepada penyewa."
+  },
+  {
+    "id": 52,
+    "kategori": "Kerusakan",
+    "judul": "Dokumentasi Kondisi Awal Barang",
+    "isi": "Toko melakukan dokumentasi kondisi barang sebelum diserahkan kepada penyewa sebagai pembanding saat proses pengecekan pengembalian."
+  },
+  {
+    "id": 53,
+    "kategori": "Kerusakan",
+    "judul": "Kerusakan pada Sepatu",
+    "isi": "Kerusakan pada sepatu seperti sol terkelupas atau permukaan tergores akan dievaluasi terpisah dari kerusakan pada jas maupun celana."
+  },
+  {
+    "id": 54,
+    "kategori": "Kerusakan",
+    "judul": "Kelebihan Biaya Kerusakan dari Deposit",
+    "isi": "Apabila biaya kerusakan melebihi jumlah deposit yang dititipkan, penyewa wajib melunasi kekurangannya sesuai kesepakatan dengan pihak toko."
+  },
+  {
+    "id": 55,
+    "kategori": "Kerusakan",
+    "judul": "Kerusakan Akibat Ukuran Tidak Sesuai",
+    "isi": "Penyewa disarankan memastikan ukuran sudah pas sebelum digunakan, karena kerusakan akibat pemaksaan ukuran yang tidak sesuai tetap menjadi tanggung jawab penyewa."
+  },
+  {
+    "id": 56,
+    "kategori": "Kehilangan",
+    "judul": "Kewajiban Melapor Segera",
+    "isi": "Penyewa wajib segera melaporkan kepada pihak toko apabila barang sewaan hilang atau tertinggal di suatu tempat sebelum masa sewa berakhir."
+  },
+  {
+    "id": 57,
+    "kategori": "Kehilangan",
+    "judul": "Kompensasi Barang Hilang",
+    "isi": "Barang yang hilang akan dikenakan biaya penggantian sesuai dengan harga barang, dan deposit yang telah dibayarkan akan digunakan sebagai bagian dari kompensasi tersebut."
+  },
+  {
+    "id": 58,
+    "kategori": "Kehilangan",
+    "judul": "Kekurangan Biaya Penggantian",
+    "isi": "Apabila nilai barang yang hilang lebih besar dari jumlah deposit, penyewa wajib melunasi selisih biaya penggantian sesuai kesepakatan dengan pihak toko."
+  },
+  {
+    "id": 59,
+    "kategori": "Kehilangan",
+    "judul": "Kehilangan Sebagian dari Satu Set",
+    "isi": "Kehilangan salah satu komponen dari satu set barang, misalnya celana dari satu paket jas, tetap dikenakan biaya penggantian atas komponen yang hilang tersebut."
+  },
+  {
+    "id": 60,
+    "kategori": "Kehilangan",
+    "judul": "Kehilangan Akibat Pencurian",
+    "isi": "Kehilangan akibat pencurian tetap menjadi tanggung jawab penyewa selama barang berada dalam masa sewa, namun penyewa disarankan melampirkan bukti laporan seperti laporan kepolisian jika ada."
+  },
+  {
+    "id": 61,
+    "kategori": "Kehilangan",
+    "judul": "Batas Waktu Klaim Kehilangan",
+    "isi": "Barang yang tidak dikembalikan lebih dari 7 hari tanpa kabar dari penyewa akan otomatis diberlakukan sebagai barang hilang dan dikenakan biaya penggantian penuh."
+  },
+  {
+    "id": 62,
+    "kategori": "Kehilangan",
+    "judul": "Kehilangan Kartu Identitas yang Dititipkan",
+    "isi": "Apabila kartu identitas yang dititipkan sebagai jaminan hilang di pihak toko, toko bertanggung jawab membantu proses pengurusan penggantian identitas tersebut."
+  },
+  {
+    "id": 63,
+    "kategori": "Kehilangan",
+    "judul": "Barang Ditemukan Setelah Pelunasan",
+    "isi": "Apabila barang yang sudah dianggap hilang dan telah dilunasi ditemukan kembali dalam kondisi baik, toko dapat mempertimbangkan pengembalian sebagian biaya sesuai kebijakan yang berlaku."
+  },
+  {
+    "id": 64,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan Sebelum Pengambilan Barang",
+    "isi": "Pembatalan sewa dapat dilakukan sebelum barang diambil dengan menghubungi pihak toko sesegera mungkin melalui kontak resmi yang tersedia."
+  },
+  {
+    "id": 65,
+    "kategori": "Pembatalan",
+    "judul": "Kebijakan DP saat Pembatalan",
+    "isi": "DP yang telah dibayarkan bersifat tidak dapat dikembalikan penuh apabila pembatalan dilakukan mendekati tanggal sewa, namun dapat dipertimbangkan sebagian tergantung waktu pembatalan."
+  },
+  {
+    "id": 66,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan Jauh Sebelum Tanggal Sewa",
+    "isi": "Pembatalan yang dilakukan jauh sebelum tanggal sewa, misalnya lebih dari 7 hari sebelumnya, memiliki peluang lebih besar untuk mendapatkan pengembalian DP."
+  },
+  {
+    "id": 67,
+    "kategori": "Pembatalan",
+    "judul": "Perubahan Tanggal Sewa",
+    "isi": "Penyewa dapat mengajukan perubahan tanggal sewa alih-alih pembatalan penuh, selama stok pada tanggal baru masih tersedia."
+  },
+  {
+    "id": 68,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan Akibat Kesalahan Toko",
+    "isi": "Apabila pembatalan terjadi akibat kesalahan pihak toko, seperti barang tidak sesuai pesanan, DP akan dikembalikan penuh kepada penyewa."
+  },
+  {
+    "id": 69,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan Sepihak oleh Penyewa",
+    "isi": "Pembatalan sepihak yang dilakukan tanpa pemberitahuan sebelumnya dapat memengaruhi kebijakan booking penyewa tersebut di transaksi berikutnya."
+  },
+  {
+    "id": 70,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan untuk Booking Rombongan",
+    "isi": "Untuk booking rombongan atau grup, pembatalan sebagian anggota tidak membatalkan keseluruhan transaksi, namun tetap mengikuti kebijakan DP masing-masing individu."
+  },
+  {
+    "id": 71,
+    "kategori": "Pembatalan",
+    "judul": "Konfirmasi Tertulis Pembatalan",
+    "isi": "Setiap pembatalan sebaiknya dikonfirmasi secara tertulis melalui chat resmi toko sebagai bukti bahwa pembatalan telah disetujui kedua belah pihak."
+  },
+  {
+    "id": 72,
+    "kategori": "Pembatalan",
+    "judul": "Pembatalan Akibat Ketidaksesuaian Ukuran",
+    "isi": "Apabila setelah fitting ternyata ukuran yang diinginkan tidak tersedia, penyewa dapat membatalkan transaksi tanpa dikenakan penalti tambahan selama belum melewati proses pengambilan barang."
+  },
+  {
+    "id": 73,
+    "kategori": "Refund",
+    "judul": "Refund atas Kesalahan Toko",
+    "isi": "Refund penuh akan diberikan apabila kesalahan terjadi dari pihak toko, misalnya barang yang dikirim tidak sesuai dengan pesanan atau kondisi barang tidak layak pakai."
+  },
+  {
+    "id": 74,
+    "kategori": "Refund",
+    "judul": "Proses Waktu Refund",
+    "isi": "Proses refund biasanya membutuhkan waktu 1-3 hari kerja setelah disetujui, tergantung metode pembayaran yang digunakan pada transaksi awal."
+  },
+  {
+    "id": 75,
+    "kategori": "Refund",
+    "judul": "Refund Sebagian untuk Pembatalan Mendadak",
+    "isi": "Untuk pembatalan mendadak yang dilakukan mendekati tanggal sewa, refund yang diberikan biasanya bersifat sebagian sesuai kebijakan yang berlaku."
+  },
+  {
+    "id": 76,
+    "kategori": "Refund",
+    "judul": "Metode Pengembalian Dana",
+    "isi": "Refund akan dikembalikan melalui metode yang sama dengan pembayaran awal, baik melalui transfer bank maupun e-wallet."
+  },
+  {
+    "id": 77,
+    "kategori": "Refund",
+    "judul": "Refund Deposit Terpisah dari Refund Sewa",
+    "isi": "Refund deposit dan refund biaya sewa merupakan dua proses yang terpisah dan dapat memiliki waktu pencairan yang berbeda."
+  },
+  {
+    "id": 78,
+    "kategori": "Refund",
+    "judul": "Refund Tidak Berlaku untuk Barang yang Sudah Digunakan",
+    "isi": "Refund tidak dapat diberikan untuk barang yang telah selesai digunakan sesuai masa sewa yang disepakati, kecuali terdapat kesalahan dari pihak toko."
+  },
+  {
+    "id": 79,
+    "kategori": "Refund",
+    "judul": "Bukti Transaksi untuk Proses Refund",
+    "isi": "Penyewa wajib menyertakan bukti transaksi seperti struk atau riwayat chat pemesanan untuk mempercepat proses verifikasi refund."
+  },
+  {
+    "id": 80,
+    "kategori": "Refund",
+    "judul": "Refund untuk Barang Rusak Sebelum Diserahkan",
+    "isi": "Apabila ditemukan kerusakan pada barang sebelum diserahkan ke penyewa, penyewa berhak memilih penggantian barang lain atau refund penuh."
+  },
+  {
+    "id": 81,
+    "kategori": "Pembayaran",
+    "judul": "Metode Pembayaran yang Diterima",
+    "isi": "Pembayaran dapat dilakukan melalui transfer bank, e-wallet seperti OVO, Gopay, dan Dana, maupun secara tunai langsung di toko."
+  },
+  {
+    "id": 82,
+    "kategori": "Pembayaran",
+    "judul": "Pembayaran DP untuk Booking",
+    "isi": "Setiap booking sewa wajib disertai pembayaran DP sebagai tanda jadi untuk mengunci ketersediaan barang pada tanggal yang diinginkan."
+  },
+  {
+    "id": 83,
+    "kategori": "Pembayaran",
+    "judul": "Pelunasan Sisa Pembayaran",
+    "isi": "Sisa pembayaran setelah DP dapat dilunasi pada saat pengambilan barang, baik secara tunai maupun transfer sesuai kesepakatan."
+  },
+  {
+    "id": 84,
+    "kategori": "Pembayaran",
+    "judul": "Konfirmasi Bukti Transfer",
+    "isi": "Setiap pembayaran melalui transfer wajib disertai bukti transfer yang dikirimkan kepada admin toko untuk keperluan konfirmasi transaksi."
+  },
+  {
+    "id": 85,
+    "kategori": "Pembayaran",
+    "judul": "Pembayaran Tidak Dapat Dicicil Selama Masa Sewa",
+    "isi": "Seluruh biaya sewa dan deposit wajib dilunasi sebelum barang diserahkan, dan tidak dapat dicicil selama masa sewa berlangsung."
+  },
+  {
+    "id": 86,
+    "kategori": "Pembayaran",
+    "judul": "Bukti Pembayaran Resmi",
+    "isi": "Setiap transaksi pembayaran akan disertai bukti pembayaran resmi dari toko sebagai referensi apabila terjadi kendala di kemudian hari."
+  },
+  {
+    "id": 87,
+    "kategori": "Pembayaran",
+    "judul": "Pembayaran untuk Transaksi Rombongan",
+    "isi": "Untuk transaksi rombongan, pembayaran dapat dilakukan secara kolektif oleh satu penanggung jawab atau secara terpisah oleh masing-masing anggota sesuai kesepakatan."
+  },
+  {
+    "id": 88,
+    "kategori": "Pembayaran",
+    "judul": "Kebijakan Pembayaran untuk Pengiriman Luar Kota",
+    "isi": "Untuk pengiriman luar kota, pelunasan biaya sewa dan ongkos kirim wajib diselesaikan sebelum barang dikirimkan oleh pihak toko."
+  },
+  {
+    "id": 89,
+    "kategori": "Perawatan",
+    "judul": "Penyimpanan Barang Selama Masa Sewa",
+    "isi": "Penyewa disarankan menyimpan barang sewaan di tempat yang kering dan bersih, serta menghindari paparan sinar matahari langsung dalam waktu lama."
+  },
+  {
+    "id": 90,
+    "kategori": "Perawatan",
+    "judul": "Larangan Mencuci Sendiri",
+    "isi": "Penyewa tidak diperkenankan mencuci sendiri barang sewaan menggunakan deterjen atau mesin cuci rumahan, karena dapat merusak bahan dan potongan jas."
+  },
+  {
+    "id": 91,
+    "kategori": "Perawatan",
+    "judul": "Penggunaan Sesuai Peruntukan",
+    "isi": "Barang sewaan hanya boleh digunakan sesuai peruntukannya sebagai busana formal, dan tidak disarankan untuk aktivitas berat atau kondisi ekstrem."
+  },
+  {
+    "id": 92,
+    "kategori": "Perawatan",
+    "judul": "Cara Menyimpan Sepatu Selama Sewa",
+    "isi": "Sepatu pantofel sebaiknya disimpan dalam kondisi berdiri tegak dan terhindar dari kelembapan untuk menjaga bentuk dan kualitas bahan."
+  },
+  {
+    "id": 93,
+    "kategori": "Perawatan",
+    "judul": "Menghindari Kontak dengan Bahan Kimia",
+    "isi": "Penyewa disarankan menghindari kontak langsung barang sewaan dengan parfum berlebihan, minyak, atau bahan kimia lain yang berpotensi meninggalkan noda permanen."
+  },
+  {
+    "id": 94,
+    "kategori": "Perawatan",
+    "judul": "Penanganan Saat Terkena Noda",
+    "isi": "Apabila barang terkena noda selama masa sewa, penyewa disarankan tidak membersihkan sendiri dan cukup menginformasikan kondisi tersebut saat pengembalian barang."
+  },
+  {
+    "id": 95,
+    "kategori": "Perawatan",
+    "judul": "Penyimpanan Selama Perjalanan",
+    "isi": "Saat dibawa bepergian, barang sewaan sebaiknya tetap berada dalam pembungkus atau tas pelindung yang disediakan toko untuk menghindari kerusakan selama perjalanan."
+  },
+  {
+    "id": 96,
+    "kategori": "Perawatan",
+    "judul": "Perawatan Aksesoris Tambahan",
+    "isi": "Aksesoris tambahan seperti dasi dan sabuk sebaiknya dilepas dan disimpan terpisah saat tidak digunakan untuk menjaga kondisinya tetap rapi."
+  },
+  {
+    "id": 97,
+    "kategori": "Perawatan",
+    "judul": "Tanggung Jawab Perawatan Selama Masa Sewa",
+    "isi": "Selama masa sewa berlangsung, seluruh tanggung jawab menjaga kebersihan dan kondisi barang berada di tangan penyewa hingga barang dikembalikan ke toko."
+  },
+  {
+    "id": 98,
+    "kategori": "Perawatan",
+    "judul": "Layanan Pembersihan oleh Toko",
+    "isi": "Seluruh proses pembersihan dan perawatan pasca sewa akan ditangani sepenuhnya oleh Seven Inc sebagai bagian dari layanan, sehingga penyewa tidak perlu melakukan pencucian sendiri."
+  },
+  {
+    "id": 99,
+    "kategori": "Kehilangan",
+    "judul": "Kehilangan Aksesoris Tambahan",
+    "isi": "Kehilangan aksesoris tambahan seperti dasi, sabuk, atau kotak sepatu tetap dikenakan biaya penggantian sesuai harga aksesoris tersebut, terpisah dari barang utama."
+  },
+  {
+    "id": 100,
+    "kategori": "Kehilangan",
+    "judul": "Kerja Sama Pencarian Barang Hilang",
+    "isi": "Pihak toko dapat membantu memberikan informasi tambahan seperti lokasi terakhir pengambilan barang untuk membantu penyewa mencari barang yang tertinggal atau hilang."
+  },
+  {
+    "id": 101,
+    "kategori": "Refund",
+    "judul": "Refund untuk Pembayaran Ganda",
+    "isi": "Apabila terjadi kesalahan sistem sehingga penyewa melakukan pembayaran lebih dari satu kali untuk transaksi yang sama, kelebihan pembayaran akan dikembalikan penuh."
+  },
+  {
+    "id": 102,
+    "kategori": "Refund",
+    "judul": "Pengajuan Komplain Sebelum Refund",
+    "isi": "Pengajuan refund harus disertai penjelasan atau bukti pendukung terkait kendala yang dialami agar dapat diproses lebih cepat oleh tim customer service."
+  },
+  {
+    "id": 103,
+    "kategori": "Pembayaran",
+    "judul": "Kebijakan Pembulatan Nominal",
+    "isi": "Untuk pembayaran tunai, nominal dapat dibulatkan ke atas atau ke bawah sesuai kesepakatan apabila terdapat selisih kecil pada saat transaksi."
+  },
+  {
+    "id": 104,
+    "kategori": "Pembayaran",
+    "judul": "Kerahasiaan Data Pembayaran",
+    "isi": "Seluruh data dan bukti pembayaran pelanggan dijaga kerahasiaannya oleh Seven Inc dan hanya digunakan untuk keperluan administrasi transaksi sewa."
+  }
+]

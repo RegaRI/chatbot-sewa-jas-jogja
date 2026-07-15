@@ -1,0 +1,51 @@
+{
+  "nama": "Sewa Jas Jogja",
+  "alamat": "Jl. Gejayan No. 27, Papringan, Depok, Sleman, Daerah Istimewa Yogyakarta 55281",
+  "google_maps": "https://maps.app.goo.gl/SewajasYogyakarta",
+  "whatsapp": "+62 812-2745-9081",
+  "email": "cs.sewajasjogja@gmail.com",
+  "instagram": "@sewajasjogja",
+  "tiktok": "@sewajasjogja",
+  "website": "https://sewajasjogja.com",
+  "jam_operasional": "09.00 - 20.00 WIB",
+  "hari_operasional": "Setiap hari (Senin - Minggu), tutup pada hari besar nasional tertentu sesuai pengumuman",
+  "rekening_pembayaran": [
+    {
+      "bank": "Bank BCA",
+      "nomor_rekening": "4570123456",
+      "atas_nama": "Eri"
+    },
+    {
+      "bank": "Bank Mandiri",
+      "nomor_rekening": "1370099887766",
+      "atas_nama": "Eri"
+    },
+    {
+      "bank": "Bank BRI",
+      "nomor_rekening": "0092-01-887766-53-2",
+      "atas_nama": "Eri"
+    }
+  ],
+  "qris": {
+    "tersedia": true,
+    "nama_merchant": "COKI",
+    "keterangan": "Pembayaran QRIS dapat dilakukan melalui aplikasi bank maupun e-wallet seperti Gopay, OVO, Dana, dan ShopeePay dengan memindai kode QRIS yang tersedia di toko."
+  },
+  "area_layanan": [
+    "Kota Yogyakarta",
+    "Sleman",
+    "Bantul",
+    "Kulon Progo",
+    "Gunungkidul",
+    "Luar Daerah Istimewa Yogyakarta (via pengiriman ekspedisi)"
+  ],
+  "deskripsi_perusahaan": "Sewa Jas Jogja adalah usaha penyewaan jas, celana, dan sepatu pantofel formal yang berlokasi di Yogyakarta. Berdiri untuk menjawab kebutuhan masyarakat akan busana formal berkualitas dengan harga terjangkau, Seven Inc melayani penyewaan untuk berbagai keperluan seperti wisuda, pernikahan, interview kerja, seminar, hingga acara formal lainnya, dengan koleksi model dan warna yang terus diperbarui.",
+  "visi": "Menjadi penyedia jasa penyewaan busana formal terpercaya dan terlengkap di Yogyakarta yang membantu setiap pelanggan tampil rapi dan percaya diri di setiap momen penting.",
+  "misi": [
+    "Menyediakan koleksi jas, celana, dan sepatu pantofel formal berkualitas dengan berbagai pilihan ukuran dan warna.",
+    "Memberikan pelayanan yang ramah, cepat, dan profesional kepada setiap pelanggan.",
+    "Menjaga kebersihan dan kerapian setiap barang yang disewakan melalui perawatan rutin.",
+    "Menghadirkan harga sewa yang terjangkau tanpa mengurangi kualitas produk dan layanan.",
+    "Terus berinovasi mengikuti tren mode formal terkini untuk kepuasan pelanggan."
+  ]
+}

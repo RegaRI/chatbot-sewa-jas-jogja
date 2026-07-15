@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Sewa Jas Jogja - Chatbot</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Sewa Jas Jogja</h2>
+      <span>Chatbot Rental Jas, Celana &amp; Sepatu Pantofel</span>
+    </div>
+    <div class="chat-box" id="chatBox">
+      <div class="bubble bot">Halo kak! Ada yang bisa dibantu soal sewa jas, celana, atau sepatu pantofel?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Tulis pertanyaan..." autocomplete="off">
+      <button id="sendBtn">Kirim</button>
+    </div>
+  </div>
+
+<script>
+const chatBox = document.getElementById('chatBox');
+const userInput = document.getElementById('userInput');
+const sendBtn = document.getElementById('sendBtn');
+
+function addBubble(text, sender) {
+  const div = document.createElement('div');
+  div.className = 'bubble ' + sender;
+  div.textContent = text;
+  chatBox.appendChild(div);
+  chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+async function sendMessage() {
+  const msg = userInput.value.trim();
+  if (!msg) return;
+  addBubble(msg, 'user');
+  userInput.value = '';
+
+  const botDiv = document.createElement('div');
+  botDiv.className = 'bubble bot';
+  botDiv.textContent = '';
+  chatBox.appendChild(botDiv);
+  chatBox.scrollTop = chatBox.scrollHeight;
+
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({message: msg})
+    });
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    while (true) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      botDiv.textContent += decoder.decode(value, {stream: true});
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  } catch (err) {
+    botDiv.textContent = 'Gagal menghubungi server.';
+  }
+}
+
+sendBtn.addEventListener('click', sendMessage);
+userInput.addEventListener('keydown', e => { if (e.key === 'Enter') sendMessage(); });
+</script>
+</body>
+</html>

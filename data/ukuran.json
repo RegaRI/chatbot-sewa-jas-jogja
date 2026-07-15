@@ -1,0 +1,205 @@
+{
+  "jas": [
+    {
+      "ukuran": "XS",
+      "tinggi_badan_cm": "155 - 160",
+      "berat_badan_kg": "40 - 50",
+      "lingkar_dada_cm": "84 - 88",
+      "rekomendasi": "Cocok untuk badan mungil dan tinggi badan di bawah rata-rata, sering dipilih untuk pelajar atau mahasiswa dengan postur kecil."
+    },
+    {
+      "ukuran": "S",
+      "tinggi_badan_cm": "160 - 165",
+      "berat_badan_kg": "50 - 58",
+      "lingkar_dada_cm": "89 - 93",
+      "rekomendasi": "Ukuran ideal untuk postur ramping dengan tinggi badan rata-rata, nyaman dipakai untuk acara formal sehari-hari."
+    },
+    {
+      "ukuran": "M",
+      "tinggi_badan_cm": "165 - 170",
+      "berat_badan_kg": "58 - 68",
+      "lingkar_dada_cm": "94 - 98",
+      "rekomendasi": "Ukuran paling umum dan paling banyak dipilih, cocok untuk badan proporsional dengan tinggi rata-rata pria Indonesia."
+    },
+    {
+      "ukuran": "L",
+      "tinggi_badan_cm": "168 - 173",
+      "berat_badan_kg": "68 - 78",
+      "lingkar_dada_cm": "99 - 104",
+      "rekomendasi": "Cocok untuk badan sedikit lebih berisi atau atletis dengan bahu bidang, memberikan tampilan tegas dan rapi."
+    },
+    {
+      "ukuran": "XL",
+      "tinggi_badan_cm": "170 - 176",
+      "berat_badan_kg": "78 - 88",
+      "lingkar_dada_cm": "105 - 110",
+      "rekomendasi": "Direkomendasikan untuk badan besar dan tinggi di atas rata-rata, memberikan ruang gerak yang lebih leluasa."
+    },
+    {
+      "ukuran": "XXL",
+      "tinggi_badan_cm": "172 - 178",
+      "berat_badan_kg": "88 - 98",
+      "lingkar_dada_cm": "111 - 116",
+      "rekomendasi": "Cocok untuk postur besar dan berotot, potongan sedikit lebih lebar di bagian bahu dan dada agar tetap nyaman."
+    },
+    {
+      "ukuran": "3XL",
+      "tinggi_badan_cm": "174 - 180",
+      "berat_badan_kg": "98 - 108",
+      "lingkar_dada_cm": "117 - 122",
+      "rekomendasi": "Direkomendasikan untuk badan besar dengan lingkar dada lebar, tetap memberikan potongan formal yang rapi."
+    },
+    {
+      "ukuran": "4XL",
+      "tinggi_badan_cm": "175 - 182",
+      "berat_badan_kg": "108 - 118",
+      "lingkar_dada_cm": "123 - 128",
+      "rekomendasi": "Untuk badan ekstra besar, disarankan cek stok terlebih dahulu karena jumlah unit lebih terbatas dibanding ukuran standar."
+    },
+    {
+      "ukuran": "5XL",
+      "tinggi_badan_cm": "176 - 185",
+      "berat_badan_kg": "118 - 130",
+      "lingkar_dada_cm": "129 - 135",
+      "rekomendasi": "Ukuran terbesar yang kami sediakan, cocok untuk postur besar, disarankan booking dan fitting jauh hari sebelum acara."
+    }
+  ],
+  "celana": [
+    {
+      "ukuran": "27",
+      "lingkar_pinggang_cm": "62 - 65",
+      "panjang_celana_cm": "96 - 98"
+    },
+    {
+      "ukuran": "28",
+      "lingkar_pinggang_cm": "64 - 67",
+      "panjang_celana_cm": "96 - 98"
+    },
+    {
+      "ukuran": "29",
+      "lingkar_pinggang_cm": "67 - 70",
+      "panjang_celana_cm": "97 - 99"
+    },
+    {
+      "ukuran": "30",
+      "lingkar_pinggang_cm": "70 - 73",
+      "panjang_celana_cm": "98 - 100"
+    },
+    {
+      "ukuran": "31",
+      "lingkar_pinggang_cm": "72 - 75",
+      "panjang_celana_cm": "98 - 100"
+    },
+    {
+      "ukuran": "32",
+      "lingkar_pinggang_cm": "74 - 77",
+      "panjang_celana_cm": "98 - 100"
+    },
+    {
+      "ukuran": "33",
+      "lingkar_pinggang_cm": "77 - 80",
+      "panjang_celana_cm": "99 - 101"
+    },
+    {
+      "ukuran": "34",
+      "lingkar_pinggang_cm": "80 - 83",
+      "panjang_celana_cm": "100 - 102"
+    },
+    {
+      "ukuran": "35",
+      "lingkar_pinggang_cm": "82 - 85",
+      "panjang_celana_cm": "100 - 102"
+    },
+    {
+      "ukuran": "36",
+      "lingkar_pinggang_cm": "84 - 87",
+      "panjang_celana_cm": "100 - 102"
+    }
+  ],
+  "sepatu": [
+    {
+      "ukuran": "29",
+      "panjang_kaki_cm": 18.0
+    },
+    {
+      "ukuran": "30",
+      "panjang_kaki_cm": 18.7
+    },
+    {
+      "ukuran": "31",
+      "panjang_kaki_cm": 19.3
+    },
+    {
+      "ukuran": "32",
+      "panjang_kaki_cm": 20.0
+    },
+    {
+      "ukuran": "33",
+      "panjang_kaki_cm": 20.7
+    },
+    {
+      "ukuran": "34",
+      "panjang_kaki_cm": 21.3
+    },
+    {
+      "ukuran": "35",
+      "panjang_kaki_cm": 22.0
+    },
+    {
+      "ukuran": "36",
+      "panjang_kaki_cm": 22.7
+    },
+    {
+      "ukuran": "37",
+      "panjang_kaki_cm": 23.3
+    },
+    {
+      "ukuran": "38",
+      "panjang_kaki_cm": 24.0
+    },
+    {
+      "ukuran": "39",
+      "panjang_kaki_cm": 24.7
+    },
+    {
+      "ukuran": "40",
+      "panjang_kaki_cm": 25.3
+    },
+    {
+      "ukuran": "41",
+      "panjang_kaki_cm": 26.0
+    },
+    {
+      "ukuran": "42",
+      "panjang_kaki_cm": 26.7
+    },
+    {
+      "ukuran": "43",
+      "panjang_kaki_cm": 27.3
+    },
+    {
+      "ukuran": "44",
+      "panjang_kaki_cm": 28.0
+    },
+    {
+      "ukuran": "45",
+      "panjang_kaki_cm": 28.7
+    },
+    {
+      "ukuran": "46",
+      "panjang_kaki_cm": 29.3
+    }
+  ],
+  "tips_memilih_ukuran": [
+    "Ukur tinggi dan berat badan dalam kondisi normal (tanpa alas kaki dan tanpa jaket tebal) agar hasil pengukuran lebih akurat.",
+    "Untuk mengukur lingkar dada, gunakan meteran jahit dan lingkarkan pada bagian dada terlebar sambil bernapas normal, jangan terlalu ditarik kencang.",
+    "Untuk mengukur lingkar pinggang celana, ukur pada bagian pinggang tempat celana biasa dikenakan, bukan pada bagian perut yang paling besar.",
+    "Panjang celana idealnya diukur dari pinggang hingga mata kaki, sesuaikan juga dengan model potongan celana (regular, slim, atau cropped).",
+    "Untuk sepatu, ukur panjang kaki dari tumit hingga ujung jari terpanjang saat berdiri, lalu tambahkan sekitar 0,5-1 cm untuk kenyamanan.",
+    "Jika berat badan atau tinggi badan berada di antara dua rentang ukuran, disarankan memilih ukuran yang lebih besar agar tetap nyaman dipakai seharian.",
+    "Untuk hasil paling akurat, sangat disarankan melakukan fitting langsung di toko sebelum hari acara, terutama untuk acara penting seperti wedding atau wisuda.",
+    "Jika ragu dengan ukuran yang dipilih, hubungi customer service untuk konsultasi ukuran berdasarkan data tinggi, berat badan, dan model yang diinginkan.",
+    "Perhatikan juga model jas (slim fit atau regular fit) karena dapat memengaruhi kenyamanan meskipun ukuran dasarnya sama.",
+    "Bawa data ukuran sepatu yang biasa dipakai sehari-hari sebagai referensi tambahan saat memilih ukuran sepatu pantofel sewaan."
+  ]
+}
