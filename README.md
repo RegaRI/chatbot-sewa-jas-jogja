@@ -2,7 +2,7 @@
 
 ## Cara jalanin
 1. Install Ollama (kalau belum): https://ollama.com
-2. Pull model: `ollama pull qwen2.5:3b`
+2. Pull model: `ollama pull qwen2.5:1.5b`
 3. Pastikan Ollama jalan: `ollama serve` (biasanya otomatis jalan setelah install)
 4. Install dependency Python:
    ```
