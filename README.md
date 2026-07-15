@@ -31,8 +31,7 @@
 ## Kalau mau ganti model
 Set environment variable sebelum jalanin:
 ```
-set OLLAMA_MODEL=qwen2.5:7b        (Windows)
-export OLLAMA_MODEL=qwen2.5:7b     (Mac/Linux)
+set OLLAMA_MODEL=qwen2.5:1.5b        (Windows)
 ```
 
 ## Tuning lanjutan (opsional, kalau hasilnya kurang pas)
