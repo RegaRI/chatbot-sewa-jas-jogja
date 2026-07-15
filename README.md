@@ -1,4 +1,4 @@
-# Chatbot Seven Inc
+# Chatbot Sewa Jas
 
 ## Cara jalanin
 1. Install Ollama (kalau belum): https://ollama.com
