@@ -14,11 +14,8 @@ produk_search = ProdukSearch()
 with open("data/toko.json", encoding="utf-8") as f:
     TOKO_INFO = json.load(f)
 
-KATEGORI_KEYWORDS = ["jas", "celana", "sepatu", "pantofel"]
 STOK_HARGA_KEYWORDS = ["harga", "stok", "ada gak", "ada ga", "tersedia", "berapa",
                        "warna apa", "warna apa aja", "sewa"]
-UKURAN_GUIDE_KEYWORDS = ["ukuran berapa", "ukuran apa", "cocok ukuran", "tinggi badan",
-                         "berat badan", "panjang kaki", "lingkar dada", "lingkar pinggang"]
 TOKO_KEYWORDS = ["alamat", "lokasi", "jam buka", "jam operasional", "kontak", "whatsapp",
                   "wa toko", "rekening", "qris", "instagram", "buka jam"]
 TANGGAL_KEYWORDS = ["tanggal", "besok", "lusa", "minggu depan", "bulan depan"]
@@ -91,22 +88,43 @@ def build_produk_context(hasil, filter_info):
     return "\n".join(lines)
 
 
-def build_ukuran_context(text):
-    text_lower = text.lower()
-    if "sepatu" in text_lower:
+def _guide_satu_kategori(jenis):
+    if jenis == "sepatu":
         data = produk_search.panduan_ukuran("sepatu")
         return "Panduan ukuran sepatu:\n" + "\n".join(
             f"- Ukuran {d['ukuran']}: panjang kaki {d['panjang_kaki_cm']} cm" for d in data)
-    if "celana" in text_lower:
+    if jenis == "celana":
         data = produk_search.panduan_ukuran("celana")
         return "Panduan ukuran celana:\n" + "\n".join(
             f"- Ukuran {d['ukuran']}: lingkar pinggang {d['lingkar_pinggang_cm']} cm, "
             f"panjang {d['panjang_celana_cm']} cm" for d in data)
-    # default jas
+    # jas
     data = produk_search.panduan_ukuran("jas")
     return "Panduan ukuran jas:\n" + "\n".join(
         f"- Ukuran {d['ukuran']}: tinggi {d['tinggi_badan_cm']} cm, berat {d['berat_badan_kg']} kg, "
         f"lingkar dada {d['lingkar_dada_cm']} cm" for d in data)
+
+
+def build_ukuran_context(jenis_list):
+    """jenis_list: list berisi kombinasi dari 'jas'/'celana'/'sepatu'."""
+    return "\n\n".join(_guide_satu_kategori(j) for j in jenis_list)
+
+
+def _kategori_disebut_list(text):
+    """Cari SEMUA kategori yang disebut di teks (bisa lebih dari satu, mis. 'celana dan sepatunya').
+    Toleran imbuhan (sepatunya, celananya, dst), tapi 'jas' sengaja gak nyangkut ke 'jasa'."""
+    hasil = []
+    if re.search(r"\bjas(?!a)\w*\b", text):
+        hasil.append("jas")
+    if re.search(r"\bcelana\w*\b", text):
+        hasil.append("celana")
+    if re.search(r"\b(sepatu|pantofel)\w*\b", text):
+        hasil.append("sepatu")
+    return hasil
+
+
+_JENIS_KE_KATEGORI_PRODUK = {"jas": "Jas", "celana": "Celana", "sepatu": "Sepatu Pantofel"}
+_KATEGORI_PRODUK_KE_JENIS = {v: k for k, v in _JENIS_KE_KATEGORI_PRODUK.items()}
 
 
 def route_and_get_context(message):
@@ -122,13 +140,33 @@ def route_and_get_context(message):
                 "dicari jawabannya. INSTRUKSI: sambut dengan ramah dan tanyakan mau tanya "
                 "atau sewa apa (jas/celana/sepatu), jangan mengarang informasi apa pun.")
 
-    if _ada_kata_utuh(UKURAN_GUIDE_KEYWORDS, text_lower):
-        return build_ukuran_context(text_lower)
+    # deteksi ukuran/warna/kategori spesifik dari teks - dipakai di beberapa cabang di bawah
+    ukuran_baru = produk_search._cari_ukuran(text_lower)
+    warna_baru = produk_search._cari_warna(text_lower)
+    kategori_baru = produk_search._cari_kategori(text_lower)
+
+    # pertanyaan soal PANDUAN ukuran (bukan cek stok produk spesifik):
+    # ciri-cirinya ada kata "ukuran" TAPI gak nyebut nilai ukuran/warna konkret
+    # (kalau udah nyebut nilai kayak "L"/"32"/warna, itu berarti nanya produk spesifik -> ke cabang produk)
+    if "ukuran" in text_lower and not ukuran_baru and not warna_baru:
+        kategori_list = _kategori_disebut_list(text_lower)
+        if not kategori_list and LAST_FILTER["kategori"]:
+            jenis_terakhir = _KATEGORI_PRODUK_KE_JENIS.get(LAST_FILTER["kategori"])
+            if jenis_terakhir:
+                kategori_list = [jenis_terakhir]
+        if not kategori_list:
+            return ("Pelanggan menanyakan panduan ukuran tapi belum jelas untuk kategori apa "
+                    "(jas/celana/sepatu). INSTRUKSI: tanyakan balik mau panduan ukuran untuk "
+                    "jas, celana, atau sepatu.")
+        # simpan kategori yang baru kesebut (kalau cuma satu) biar nyambung ke pesan berikutnya
+        if len(kategori_list) == 1:
+            LAST_FILTER["kategori"] = _JENIS_KE_KATEGORI_PRODUK[kategori_list[0]]
+        return build_ukuran_context(kategori_list)
 
     if _ada_kata_utuh(TOKO_KEYWORDS, text_lower):
         return build_toko_context()
 
-    ada_kategori = _ada_kata_utuh(KATEGORI_KEYWORDS, text_lower)
+    ada_kategori = bool(kategori_baru)
     ada_sinyal_produk = _ada_kata_utuh(STOK_HARGA_KEYWORDS, text_lower)
     topik_produk_aktif = ada_kategori or bool(LAST_FILTER["kategori"])
 
@@ -139,11 +177,6 @@ def route_and_get_context(message):
                 "otomatis. INSTRUKSI: jangan mengonfirmasi atau menolak ketersediaan "
                 "tanggal apa pun, sampaikan jujur bahwa pengecekan tanggal booking perlu "
                 "dikonfirmasi langsung ke CS.")
-
-    # deteksi ukuran/warna langsung dari teks (dipakai buat nyambungin sama LAST_FILTER)
-    ukuran_baru = produk_search._cari_ukuran(text_lower)
-    warna_baru = produk_search._cari_warna(text_lower)
-    kategori_baru = produk_search._cari_kategori(text_lower)
 
     # pesan lanjutan yang nyebut ukuran/warna tapi gak nyebut ulang kategori
     # (mis. "ukuran XXL warna navy" abis sebelumnya nanya soal jas)
@@ -173,7 +206,7 @@ def route_and_get_context(message):
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", nama_toko=TOKO_INFO["nama"])
 
 
 @app.route("/chat", methods=["POST"])

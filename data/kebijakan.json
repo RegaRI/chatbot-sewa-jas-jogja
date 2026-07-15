@@ -3,7 +3,7 @@
     "id": 1,
     "kategori": "Syarat Sewa",
     "judul": "Identitas Wajib Ditunjukkan",
-    "isi": "Setiap penyewa wajib menunjukkan identitas resmi yang masih berlaku seperti KTP, SIM, atau paspor sebelum melakukan transaksi sewa di Seven Inc."
+    "isi": "Setiap penyewa wajib menunjukkan identitas resmi yang masih berlaku seperti KTP, SIM, atau paspor sebelum melakukan transaksi sewa di Sewa Jas Jogja."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "id": 4,
     "kategori": "Syarat Sewa",
     "judul": "Data Kontak Aktif",
-    "isi": "Penyewa wajib memberikan nomor telepon dan alamat yang aktif dan dapat dihubungi selama masa sewa berlangsung, guna mempermudah komunikasi dari pihak Seven Inc apabila diperlukan."
+    "isi": "Penyewa wajib memberikan nomor telepon dan alamat yang aktif dan dapat dihubungi selama masa sewa berlangsung, guna mempermudah komunikasi dari pihak Sewa Jas Jogja apabila diperlukan."
   },
   {
     "id": 5,
@@ -153,7 +153,7 @@
     "id": 26,
     "kategori": "Pengembalian",
     "judul": "Lokasi Pengembalian Barang",
-    "isi": "Barang dapat dikembalikan langsung ke toko Seven Inc di Yogyakarta, atau dikirim kembali melalui jasa ekspedisi apabila sebelumnya barang dikirim ke alamat penyewa."
+    "isi": "Barang dapat dikembalikan langsung ke toko Sewa Jas Jogja di Yogyakarta, atau dikirim kembali melalui jasa ekspedisi apabila sebelumnya barang dikirim ke alamat penyewa."
   },
   {
     "id": 27,
@@ -585,7 +585,7 @@
     "id": 98,
     "kategori": "Perawatan",
     "judul": "Layanan Pembersihan oleh Toko",
-    "isi": "Seluruh proses pembersihan dan perawatan pasca sewa akan ditangani sepenuhnya oleh Seven Inc sebagai bagian dari layanan, sehingga penyewa tidak perlu melakukan pencucian sendiri."
+    "isi": "Seluruh proses pembersihan dan perawatan pasca sewa akan ditangani sepenuhnya oleh Sewa Jas Jogja sebagai bagian dari layanan, sehingga penyewa tidak perlu melakukan pencucian sendiri."
   },
   {
     "id": 99,
@@ -621,6 +621,6 @@
     "id": 104,
     "kategori": "Pembayaran",
     "judul": "Kerahasiaan Data Pembayaran",
-    "isi": "Seluruh data dan bukti pembayaran pelanggan dijaga kerahasiaannya oleh Seven Inc dan hanya digunakan untuk keperluan administrasi transaksi sewa."
+    "isi": "Seluruh data dan bukti pembayaran pelanggan dijaga kerahasiaannya oleh Sewa Jas Jogja dan hanya digunakan untuk keperluan administrasi transaksi sewa."
   }
 ]

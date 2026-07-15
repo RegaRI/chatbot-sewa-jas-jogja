@@ -11,7 +11,10 @@ OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL_NAME = os.environ.get("OLLAMA_MODEL", "qwen2.5:1.5b")
 CPU_THREADS = multiprocessing.cpu_count()
 
-SYSTEM_PROMPT = """Kamu admin CS toko Seven Inc, rental jas/celana/sepatu pantofel di Yogyakarta. \
+with open("data/toko.json", encoding="utf-8") as f:
+    _NAMA_TOKO = json.load(f)["nama"]
+
+SYSTEM_PROMPT = f"""Kamu admin CS toko {_NAMA_TOKO}, rental jas/celana/sepatu pantofel di Yogyakarta. \
 Jawab ramah, singkat (maks 3 kalimat), gaya CS toko online.
 ATURAN:
 - Jawab HANYA dalam Bahasa Indonesia. Jangan pernah pakai bahasa lain sama sekali.
@@ -39,12 +42,12 @@ Jawab pertanyaan pelanggan di atas berdasarkan informasi yang tersedia."""
         "stream": stream,
         "keep_alive": "30m",   # model tetap di RAM 30 menit, gak perlu reload tiap request
         "options": {
-            "num_predict": 150,
-            "num_ctx": 2048,
-            "num_thread": CPU_THREADS,
-            "temperature": 0.1,
-            "repeat_penalty": 1.15,
-        }
+            "num_predict": 200,     # jawaban lebih pendek = lebih cepat kelar
+            "num_ctx": 1024,        # context window kecil aja, prompt kita gak panjang
+            "num_thread": CPU_THREADS,  # pakai semua core CPU yang ada
+            "temperature": 0.2,     # rendah = lebih patuh instruksi, gak random/bocor bahasa
+            "repeat_penalty": 1.1,
+        },
     }
 
 
